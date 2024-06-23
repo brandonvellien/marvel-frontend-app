@@ -44,6 +44,8 @@ const Characters = ({ search }) => {
           <div className="card-content">
             <h2>{character.name}</h2>
             <p>{character.description}</p>
+            <br />
+
             <Link className="more-info" to={`/comics/${character._id}`}>
               More Infos
             </Link>
