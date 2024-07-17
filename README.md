@@ -1,50 +1,147 @@
+# Marvel Universe Explorer
 
-# Marvel Project
+## 🦸‍♀️ Description
 
-## Description
-The Marvel Project is a web application that allows users to discover and view information about characters, comics, and the Marvel universe. The application uses the Marvel API to retrieve and display the most recent and complete data.
+Marvel Universe Explorer is an interactive web application that allows Marvel fans to discover and explore the rich universe of Marvel characters and comics. Dive into a world of superheroes, villains, and epic stories!
 
+## ✨ Features
 
-## Features
-Character Search: Find detailed information about your favorite Marvel heroes and villains.
-Explore Comics: Browse comics by title, publication date and more.
-Favorites: Save your favorite characters, comics, movies and series for quick access.
+- 🦸‍♂️ Exploration of Marvel characters
+- 📚 Discovery of Marvel comics
+- 🔍 Search functionality for characters and comics
+- 📱 Responsive design for optimal experience across all devices
+- 🎠 Interactive carousel for presenting comics related to a character
+- 🏠 Attractive home page with an animated Thor GIF
 
-## Installation
-Clone the repository
+## 🚀 Getting Started
 
-bash
-Copy code
-git clone [https://github.com/brandonvellien/marvel-frontend-app.git]
-marvel-frontend-app cd
-Install dependencies
+### Prerequisites
 
-bash
-Copy code
+- Node.js (version 14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```
+git clone https://github.com/brandonvellien/marvel-frontend-app
+```
+
+2. Navigate to the project directory:
+Certainly! Here's the README in English, including information about the Node.js backend:
+markdownCopy# Marvel Universe Explorer
+
+## 🦸‍♀️ Description
+
+Marvel Universe Explorer is an interactive web application that allows Marvel fans to discover and explore the rich universe of Marvel characters and comics. Dive into a world of superheroes, villains, and epic stories!
+
+## ✨ Features
+
+- 🦸‍♂️ Exploration of Marvel characters
+- 📚 Discovery of Marvel comics
+- 🔍 Search functionality for characters and comics
+- 📱 Responsive design for optimal experience across all devices
+- 🎠 Interactive carousel for presenting comics related to a character
+- 🏠 Attractive home page with an animated Thor GIF
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+git clone https://github.com/your-name/marvel-universe-explorer.git
+Copy
+2. Navigate to the project directory:
+```
+cd marvel-frontend-app
+```
+3. Install dependencies:
+
+With npm:
+```
 npm install
-Configure the environment variables
+```
+Or with yarn:
+```
+yarn install
+````
 
-Create a . env file at the project root and add your Marvel API keys.
+### Launch
 
-approx
-Copy code
-REACT_APP_MARVEL_API_KEY=your_marvel_api_key
-Launch the application
+To start the frontend application in development mode:
 
-bash
-Copy code
+With npm:
+```
 npm start
+```
 
-## Usage
+Or with yarn :
+```
+yarn dev
+````
+The application will be accessible at [http://localhost:3000](http://localhost:3000).
 
-Open your browser and go to http://localhost:3000.
-Use the search bar to find characters, comics, movies and series.
-Click on an item to see detailed information.
-Add items to your favorites to easily find them later.
-Technologies Used
-Frontend: React
-Backend: Node.js, Express
-API: Marvel API
-Styling: CSS,
+### Backend
 
-Thank you for your visit and have fun
+This project includes a Node.js backend. To start the backend server:
+
+1. Navigate to the backend directory:
+
+````
+cd backend
+
+````
+2. Install backend dependencies:
+`````
+npm install
+``````
+or
+````
+yarn install
+````
+
+3. Start the backend server:
+
+````
+npx nodemon
+`````
+or 
+
+`````
+yarn start
+``````
+## 🛠 Technologies and Plugins Used
+
+- React.js for the frontend
+- Node.js for the backend
+- Express.js for the backend API
+- Axios for API calls
+- React Router for navigation
+- Slick Carousel for the comics carousel
+- Custom CSS for styling and responsiveness
+
+## 🌟 Detailed Features
+
+1. **Home Page**: Welcoming presentation with an animated Thor GIF and an "Enter" button to start exploring.
+
+2. **Characters List**: Paginated display of Marvel characters with their images and names.
+
+3. **Character Details**: Dedicated page for each character with their description and a carousel of associated comics.
+
+4. **Comics List**: Paginated display of Marvel comics with their covers and titles.
+
+5. **Search**: Search bar allowing quick finding of specific characters or comics.
+
+6. **Responsive Design**: The application adapts to different screen sizes, from mobile to desktop.
+
+7. **Backend API**: Node.js backend providing RESTful API endpoints for fetching Marvel data.
+
+## 🙏 Acknowledgements
+
+- Marvel for their incredible universe and API
