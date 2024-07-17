@@ -42,7 +42,6 @@ const Header = ({ search, setSearch }) => {
             Search
           </button>
         </form>
-        <button>FAVORITES</button>
       </div>
     </header>
   );
